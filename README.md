@@ -3,7 +3,7 @@ Writing a program to generate random sudoku puzzles that I can solve when I'm bo
 <br>
 
 ## TODO:
--[ ] create solver function
--[ ] Generate full sudoku
--[ ] Remove numbers to form puzzle
--[ ] Validate the generated sudoku
+- [ ] create solver function
+- [ ] Generate full sudoku
+- [ ] Remove numbers to form puzzle
+- [ ] Validate the generated sudoku
