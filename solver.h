@@ -43,17 +43,19 @@ bool solve(vector<vector<int>>& board){
 }
 
 void printBoard(vector<vector<int>>& board){
+    cout<<"\t\t\t\t-------------------------\n\t\t\t\t";
     for (int row = 0; row < 9; row++){
         for (int col = 0; col < 9; col++){
             if (board[row][col] == 0){
                 cout<<"  ";
             }
             else{
-                cout<<board[row][col]<<" ";
+                cout<<board[row][col]<<"  ";
             }
         }
-        cout<<endl;
+        cout<<endl<<"\t\t\t\t";
     }
+    cout<<"-------------------------\n";
 }
 
 // int main(){
