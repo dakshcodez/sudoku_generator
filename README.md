@@ -10,3 +10,7 @@ Writing a program to generate random sudoku puzzles that I can solve when I'm bo
 
 ## ISSUES:
 - [ ] The puzzle doesn't seem to have a unique solution if the number of empty cells is greater than 40
+
+## IMPROVEMENTS:
+-[ ] Improve the UI
+-[ ] Make this into a playable game
