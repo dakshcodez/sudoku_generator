@@ -45,7 +45,12 @@ bool solve(vector<vector<int>>& board){
 void printBoard(vector<vector<int>>& board){
     for (int row = 0; row < 9; row++){
         for (int col = 0; col < 9; col++){
-            cout<<board[row][col]<<" ";
+            if (board[row][col] == 0){
+                cout<<"  ";
+            }
+            else{
+                cout<<board[row][col]<<" ";
+            }
         }
         cout<<endl;
     }
